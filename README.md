@@ -87,6 +87,41 @@ NON_IMPLEMENTATION_NOTICE.md
 clinical_boundary_register.json
 ```
 
+## Public proof surface vs production pilot surface
+
+This public repository proves the boundary posture and the admissibility structure.
+
+It shows what must be true before a clinical AI output may move toward review, authorization, or consequence.
+
+It is not presented as production deployment proof.
+
+A production pilot is a separate controlled surface that adds:
+
+```text
+bounded clinical corridor
+site-specific authority model
+customer-specific policy bundle
+integration adapter
+runtime evaluator
+receipt ledger
+replay harness
+deployment architecture
+operational controls
+commercial pilot terms
+```
+
+The public proof surface answers:
+
+```text
+What boundary must hold before consequence can form?
+```
+
+The production pilot surface answers:
+
+```text
+Can this boundary run against a specific clinical workflow under controlled deployment conditions?
+```
+
 ## Public-safety boundary
 
 This repository does not contain:
